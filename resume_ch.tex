@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{xeCJK}  
+\usepackage{color}
+\usepackage[citecolor=green
+            ]{hyperref}
+
+\name{丁世纪} % Your name
+\address{+(86) 13310003072 \\ 181860014@smail.nju.edu.cn} % Your phone number and email
+\address{江苏省南京市仙林大道163号，邮编210046}  % Your address
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{教育}
+{\textbf{南京大学}} \hfill {\em 2018.9 - 至今} \\ 
+本科生，计算机系
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HONORS / AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS / RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{项目 / 研究经历}
+
+\begin{rSubsection}{x86模拟器} {\em 2019.10 - 2019.12}
+{用C实现了一个基于qemu的x86模拟器。\\}
+\item
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item[-] ALU. 定点和浮点数的运算
+\item[-] 指令解码与执行, 内建调试器
+\item[-] 内存管理, 实现了cache, 分段和分页机制
+\item[-] 总代码量约2000行
+\end{itemize}
+\end{rSubsection}
+
+
+\begin{rSubsection}{个人blog网站}{\em 2021.6 – 2021.8}{独立开发 \\}
+{}
+\item[]
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item[-] 学习web程序设计分析课程时自制的个人blog网站
+\item[-] 登录系统和评论系统由Django框架开发
+\item[-] 总代码量约1000行
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}{Python的API推荐}{\em 2021.12 – 2022.2}
+{使用机器学习进行Python代码的API的智能推荐。\\} { }
+\item[]
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item[-] 从Github收集了40个python项目
+\item[-] 通过5种抽象语法单元推断data-flow, 给出API推荐列表
+\item[-] 采用随机森林训练模型
+\end{itemize}
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{技能}
+\begin{rSubsection}
+{}{}{}{}
+\item[-] 编程语言： 熟练使用 C/C++, Python, 了解shell, Matlab
+%\item[-] 处理大数据: 熟悉Hadoop, MapReduce
+\item[-] 机器学习：熟练使用numpy, matplotlib, sklearn
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	OTHERS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{其他}
+\begin{rSubsection}
+{}{}{}{}
+\item[-] 数学水平: 离散数学, 数值分析掌握良好
+\item[-] 英语水平: CET-6 566, TOEFL 99, 英语听说水平良好
+\item[-] 初试成绩: 思想政治 75, 英语 87, 数学 121, 计算机学科专业基础 109. 总分392.
+\end{rSubsection}
+\end{rSection}
+
+\end{document}
